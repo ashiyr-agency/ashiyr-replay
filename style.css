@@ -183,4 +183,4 @@ footer .liens a { color: var(--dim); }
   left: 50%; transform: translateX(-50%); }
 .accroche h1, .accroche p.sous { max-width: 980px; }
 .paire { gap: 24px; }
-@media (max-width: 900px) { .duo { grid-template-columns: 1fr; gap: 28px; } .duo.inverse > :first-child { order: 0; } }
+@media (max-width: 900px) { .duo, .duo.inverse { grid-template-columns: 1fr; gap: 28px; } .duo.inverse > :first-child { order: 0; } }
