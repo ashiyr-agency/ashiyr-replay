@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FloorDesk One — Téléchargement</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="../img/favicon.png">
+<link rel="stylesheet" href="../style.css">
+<style>
+  .dl { max-width: 760px; margin: 0 auto; padding: 70px 20px 90px; text-align: center; }
+  .dl h1 { font-size: clamp(30px, 5vw, 44px); margin: 26px 0 12px; }
+  .dl .sous { color: var(--dim); font-size: 18px; margin: 0 0 30px; }
+  .dl ol { text-align: left; max-width: 560px; margin: 34px auto 0; padding-left: 22px; color: var(--dim); line-height: 1.7; }
+  .dl ol strong { color: var(--blanc); }
+  .dl .petit { color: var(--dim); font-size: 14px; margin-top: 26px; }
+  .langue-dl { display: none; }
+  .langue-dl.actif { display: block; }
+  .choix-langue { margin-top: 40px; font-size: 14px; }
+  .choix-langue a { color: var(--dim); margin: 0 8px; cursor: pointer; }
+</style>
+</head>
+<body>
+<header class="haut">
+  <div class="conteneur">
+    <a class="logo" href="../index.html"><img src="../img/logo.png" alt="FloorDesk One"></a>
+  </div>
+</header>
+<main class="dl">
+
+<div class="langue-dl" data-l="fr">
+  <h1>Ton téléchargement démarre…</h1>
+  <p class="sous">Merci ! FloorDesk One se télécharge (Windows 10 et 11). Sinon, clique sur le bouton :</p>
+  <a class="bouton" href="https://github.com/ashiyr-agency/ashiyr-replay/releases/latest/download/FloorDeskOne-Setup.exe">Télécharger FloorDesk One</a>
+  <ol>
+    <li><strong>Lance l'installateur</strong>. Si Windows affiche « Windows a protégé votre ordinateur » : <strong>Informations complémentaires</strong> puis <strong>Exécuter quand même</strong>.</li>
+    <li><strong>Ouvre FloorDesk One.</strong> Sans clé, tu as 7 jours d'essai gratuit.</li>
+    <li>Tu as acheté un abonnement ? <strong>Copie la clé reçue par email</strong>, puis menu <strong>? → Licence</strong>, colle-la et clique sur <strong>Activer</strong>.</li>
+  </ol>
+  <p class="petit">Une question ? <a href="mailto:contact@floordeskone.com">contact@floordeskone.com</a></p>
+</div>
+
+<div class="langue-dl" data-l="en">
+  <h1>Your download is starting…</h1>
+  <p class="sous">Thank you! FloorDesk One is downloading (Windows 10 and 11). If not, click the button:</p>
+  <a class="bouton" href="https://github.com/ashiyr-agency/ashiyr-replay/releases/latest/download/FloorDeskOne-Setup.exe">Download FloorDesk One</a>
+  <ol>
+    <li><strong>Run the installer</strong>. If Windows shows "Windows protected your PC": <strong>More info</strong>, then <strong>Run anyway</strong>.</li>
+    <li><strong>Open FloorDesk One.</strong> Without a key you get a 7-day free trial.</li>
+    <li>Bought a subscription? <strong>Copy the key from your email</strong>, then menu <strong>? → License</strong>, paste it and click <strong>Activate</strong>.</li>
+  </ol>
+  <p class="petit">Questions? <a href="mailto:contact@floordeskone.com">contact@floordeskone.com</a></p>
+</div>
+
+<div class="langue-dl" data-l="pt">
+  <h1>Seu download está começando…</h1>
+  <p class="sous">Obrigado! O FloorDesk One está sendo baixado (Windows 10 e 11). Se não começar, clique no botão:</p>
+  <a class="bouton" href="https://github.com/ashiyr-agency/ashiyr-replay/releases/latest/download/FloorDeskOne-Setup.exe">Baixar o FloorDesk One</a>
+  <ol>
+    <li><strong>Execute o instalador</strong>. Se o Windows mostrar « O Windows protegeu o computador »: <strong>Mais informações</strong> e depois <strong>Executar assim mesmo</strong>.</li>
+    <li><strong>Abra o FloorDesk One.</strong> Sem chave, você tem 7 dias de teste grátis.</li>
+    <li>Comprou uma assinatura? <strong>Copie a chave recebida por e-mail</strong>, depois menu <strong>? → Licença</strong>, cole e clique em <strong>Ativar</strong>.</li>
+  </ol>
+  <p class="petit">Dúvidas? <a href="mailto:contact@floordeskone.com">contact@floordeskone.com</a></p>
+</div>
+
+<div class="langue-dl" data-l="es">
+  <h1>Tu descarga está comenzando…</h1>
+  <p class="sous">¡Gracias! FloorDesk One se está descargando (Windows 10 y 11). Si no, haz clic en el botón:</p>
+  <a class="bouton" href="https://github.com/ashiyr-agency/ashiyr-replay/releases/latest/download/FloorDeskOne-Setup.exe">Descargar FloorDesk One</a>
+  <ol>
+    <li><strong>Ejecuta el instalador</strong>. Si Windows muestra «Windows protegió su PC»: <strong>Más información</strong> y luego <strong>Ejecutar de todas formas</strong>.</li>
+    <li><strong>Abre FloorDesk One.</strong> Sin clave, tienes 7 días de prueba gratis.</li>
+    <li>¿Compraste una suscripción? <strong>Copia la clave recibida por email</strong>, luego menú <strong>? → Licencia</strong>, pégala y haz clic en <strong>Activar</strong>.</li>
+  </ol>
+  <p class="petit">¿Preguntas? <a href="mailto:contact@floordeskone.com">contact@floordeskone.com</a></p>
+</div>
+
+<p class="choix-langue"><a data-c="fr">Français</a>·<a data-c="en">English</a>·<a data-c="pt">Português</a>·<a data-c="es">Español</a></p>
+</main>
+<script>
+  function montrer(c) {
+    document.querySelectorAll(".langue-dl").forEach(function (d) { d.classList.toggle("actif", d.dataset.l === c); });
+    document.documentElement.lang = c;
+  }
+  var l = (new URLSearchParams(location.search).get("lang") || navigator.language || "fr").slice(0, 2).toLowerCase();
+  montrer(["fr", "en", "pt", "es"].indexOf(l) >= 0 ? l : "en");
+  document.querySelectorAll(".choix-langue a").forEach(function (a) { a.onclick = function () { montrer(a.dataset.c); }; });
+  // le telechargement demarre tout seul
+  setTimeout(function () { location.href = "https://github.com/ashiyr-agency/ashiyr-replay/releases/latest/download/FloorDeskOne-Setup.exe"; }, 1200);
+</script>
+</body>
+</html>
