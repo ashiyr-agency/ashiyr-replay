@@ -209,3 +209,18 @@ a.zoom { display: block; cursor: zoom-in; }
 a.zoom img { transition: transform .2s; }
 a.zoom:hover img { transform: scale(1.01); }
 @media (max-width: 860px) { .duo, .duo.inverse { grid-template-columns: 1fr; gap: 24px; } }
+
+/* le bloc « 4 outils en 1 » */
+section[id] { scroll-margin-top: 90px; }
+.grille.quatre { grid-template-columns: repeat(4, 1fr); margin-top: 40px; }
+.carte.outil { padding: 14px 14px 22px; display: flex; flex-direction: column; }
+.carte.outil img { border-radius: 8px; border: 1px solid var(--bord); aspect-ratio: 16 / 10; object-fit: cover; object-position: top left; width: 100%; }
+.carte.outil h3 { display: flex; align-items: center; gap: 10px; margin-top: 16px; }
+.carte.outil .num {
+  width: 28px; height: 28px; border-radius: 50%; display: inline-grid; place-items: center; flex: none;
+  background: var(--or); color: #0d1117; font-size: 15px; font-weight: 800;
+}
+.egal { margin: 34px auto 22px; font-size: 19px; color: var(--dim); max-width: 860px; }
+.egal strong { color: var(--or); }
+@media (max-width: 1000px) { .grille.quatre { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 560px) { .grille.quatre { grid-template-columns: 1fr; } }
