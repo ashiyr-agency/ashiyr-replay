@@ -1,0 +1,106 @@
+{
+ "_aide": "Defi de la semaine de FloorDesk One. semaines : 'AAAA-Wss' -> {code, titre}. Une semaine absente = defi calcule automatiquement (le meme pour tous). legendaires : la liste du menu « Journees legendaires ». Un code se fabrique dans l'appli (Entrainement -> codes defi) : SYMBOLE-instant-duree.",
+ "semaines": {
+  "2026-W41": {
+   "code": "US500-FPREO-120",
+   "titre": {
+    "fr": "Krach du Covid : l'ouverture du 9 mars 2020",
+    "en": "Covid crash: the 9 March 2020 open",
+    "pt": "Crash da Covid: a abertura de 9 de março de 2020",
+    "es": "Crash del Covid: la apertura del 9 de marzo de 2020"
+   }
+  },
+  "2026-W42": {
+   "code": "US500-FPZ6O-120",
+   "titre": {
+    "fr": "Lundi noir du 16 mars 2020",
+    "en": "Black Monday, 16 March 2020",
+    "pt": "Segunda-feira negra, 16 de março de 2020",
+    "es": "Lunes negro, 16 de marzo de 2020"
+   }
+  },
+  "2026-W43": {
+   "code": "US100-GJVT0-150",
+   "titre": {
+    "fr": "Le CPI du 10 novembre 2022 (Nasdaq +7 %)",
+    "en": "The 10 Nov 2022 CPI (Nasdaq +7%)",
+    "pt": "O CPI de 10 de novembro de 2022 (Nasdaq +7 %)",
+    "es": "El CPI del 10 de noviembre de 2022 (Nasdaq +7 %)"
+   }
+  },
+  "2026-W44": {
+   "code": "EURCHF-E3QAC-120",
+   "titre": {
+    "fr": "La BNS lâche le plancher de l'EUR/CHF (15 janvier 2015)",
+    "en": "The SNB drops the EUR/CHF floor (15 Jan 2015)",
+    "pt": "O SNB abandona o piso do EUR/CHF (15 jan. 2015)",
+    "es": "El BNS abandona el piso del EUR/CHF (15 ene. 2015)"
+   }
+  }
+ },
+ "legendaires": [
+  {
+   "code": "US500-FPREO-120",
+   "titre": {
+    "fr": "Krach du Covid : l'ouverture du 9 mars 2020",
+    "en": "Covid crash: the 9 March 2020 open",
+    "pt": "Crash da Covid: a abertura de 9 de março de 2020",
+    "es": "Crash del Covid: la apertura del 9 de marzo de 2020"
+   }
+  },
+  {
+   "code": "US500-FPZ6O-120",
+   "titre": {
+    "fr": "Lundi noir du 16 mars 2020",
+    "en": "Black Monday, 16 March 2020",
+    "pt": "Segunda-feira negra, 16 de março de 2020",
+    "es": "Lunes negro, 16 de marzo de 2020"
+   }
+  },
+  {
+   "code": "US100-GJVT0-150",
+   "titre": {
+    "fr": "Le CPI du 10 novembre 2022 (Nasdaq +7 %)",
+    "en": "The 10 Nov 2022 CPI (Nasdaq +7%)",
+    "pt": "O CPI de 10 de novembro de 2022 (Nasdaq +7 %)",
+    "es": "El CPI del 10 de noviembre de 2022 (Nasdaq +7 %)"
+   }
+  },
+  {
+   "code": "EURCHF-E3QAC-120",
+   "titre": {
+    "fr": "La BNS lâche le plancher de l'EUR/CHF (15 janvier 2015)",
+    "en": "The SNB drops the EUR/CHF floor (15 Jan 2015)",
+    "pt": "O SNB abandona o piso do EUR/CHF (15 jan. 2015)",
+    "es": "El BNS abandona el piso del EUR/CHF (15 ene. 2015)"
+   }
+  },
+  {
+   "code": "GBPUSD-EJYEO-240",
+   "titre": {
+    "fr": "La nuit du Brexit (23-24 juin 2016)",
+    "en": "Brexit night (23-24 June 2016)",
+    "pt": "A noite do Brexit (23-24 de junho de 2016)",
+    "es": "La noche del Brexit (23-24 de junio de 2016)"
+   }
+  },
+  {
+   "code": "GBPUSD-EN6YI-120",
+   "titre": {
+    "fr": "Le flash crash de la livre (7 octobre 2016)",
+    "en": "The pound flash crash (7 Oct 2016)",
+    "pt": "O flash crash da libra (7 out. 2016)",
+    "es": "El flash crash de la libra (7 oct. 2016)"
+   }
+  },
+  {
+   "code": "XAUUSD-FUJJC-180",
+   "titre": {
+    "fr": "L'or s'effondre de 5 % (11 août 2020)",
+    "en": "Gold drops 5% (11 Aug 2020)",
+    "pt": "O ouro despenca 5 % (11 ago. 2020)",
+    "es": "El oro se desploma 5 % (11 ago. 2020)"
+   }
+  }
+ ]
+}
