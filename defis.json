@@ -101,6 +101,42 @@
     "pt": "O ouro despenca 5 % (11 ago. 2020)",
     "es": "El oro se desploma 5 % (11 ago. 2020)"
    }
+  },
+  {
+   "code": "US500-F27VU-90",
+   "titre": {
+    "fr": "Volmageddon : le S&P 500 décroche (5 février 2018)",
+    "en": "Volmageddon: the S&P 500 drops (5 February 2018)",
+    "pt": "Volmageddon: o S&P 500 despenca (5 de fevereiro de 2018)",
+    "es": "Volmageddon: el S&P 500 se desploma (5 de febrero de 2018)"
+   }
+  },
+  {
+   "code": "US100-GBW2O-150",
+   "titre": {
+    "fr": "Invasion de l'Ukraine : le Nasdaq se retourne (24 février 2022)",
+    "en": "Ukraine invasion: the Nasdaq reverses (24 February 2022)",
+    "pt": "Invasão da Ucrânia: o Nasdaq vira (24 de fevereiro de 2022)",
+    "es": "Invasión de Ucrania: el Nasdaq se da la vuelta (24 de febrero de 2022)"
+   }
+  },
+  {
+   "code": "US100-H3GAO-120",
+   "titre": {
+    "fr": "Krach du yen : l'ouverture du 5 août 2024",
+    "en": "Yen crash: the 5 August 2024 open",
+    "pt": "Crash do iene: a abertura de 5 de agosto de 2024",
+    "es": "Crash del yen: la apertura del 5 de agosto de 2024"
+   }
+  },
+  {
+   "code": "US100-HB2WX-120",
+   "titre": {
+    "fr": "Pause des droits de douane : Nasdaq +9 % (9 avril 2025)",
+    "en": "Tariff pause: Nasdaq +9% (9 April 2025)",
+    "pt": "Pausa nas tarifas: Nasdaq +9% (9 de abril de 2025)",
+    "es": "Pausa de aranceles: Nasdaq +9 % (9 de abril de 2025)"
+   }
   }
  ]
 }
