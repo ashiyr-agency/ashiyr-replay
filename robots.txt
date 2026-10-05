@@ -1,0 +1,5 @@
+# FloorDesk One : tout le site est ouvert aux moteurs de recherche et aux IA.
+User-agent: *
+Allow: /
+
+Sitemap: https://floordeskone.com/sitemap.xml

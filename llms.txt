@@ -1,0 +1,32 @@
+# FloorDesk One
+
+> FloorDesk One is a Windows trading practice software (Windows 10 and 11) for CFD and prop firm traders. It replays past market data candle by candle on several synchronized charts, with a trading journal, a coach, statistics and a Monte Carlo simulation of prop firm challenges. All orders are simulated: it is a training tool, not a broker and not a signal service. €17 per month or €169 per year, 7-day free trial without a credit card. Available in French, English, Portuguese (Brazil) and Spanish.
+
+## What it does
+
+- Multi-chart replay: pick a date and time, the market restarts from there on 1 to 4 synchronized charts (e.g. M15, M5, M1), with play, next candle and speeds from x1 to x3000. Seconds charts, tick charts, Renko, Range and Heikin Ashi.
+- Economic calendar: high-impact news (NFP, CPI, PPI, FOMC, central bank decisions of the 8 major currencies) since 2010, shown as red lines on the chart, with a countdown in the trading panel.
+- Trade manager: market and pending orders, lot size from risk, draggable entry / stop / target lines, automatic break even, trailing stop, partial take profits and partial stop losses.
+- Prop firm challenge in replay: objective, daily loss limit, static or trailing drawdown, minimum days, consistency rule. A guard refuses any order that would blow the account. Public rules of FTMO, FundedNext and The5ers are provided as presets (no affiliation).
+- Trading journal: every trade saved automatically with screenshots at entry and exit, MAE / MFE, strategy, plan respect (A/B/C), emotion and mistakes. CSV export for Excel.
+- Analysis: expectancy, win rate, profit factor, drawdown, an honest verdict (nothing is proven under 30 trades), a coach that spots costly habits (revenge trades, cutting winners, overtrading), calendar, equity curve, hours x days grid, cost of each mistake, and a Monte Carlo of the challenge with the best risk per trade.
+- Training: random-date repetitions in blind mode (the date is hidden), shareable challenge codes, a weekly challenge that is the same moment for everyone, and legendary market days (Covid crash, SNB 2015, Brexit night, CPI days...).
+- FloorScript: write your own indicators (or have an AI write them) and scan many symbols for signals.
+- Data: free 1-minute history (HistData for forex, indices, metals, oil; Binance for crypto), the trader's own MetaTrader 4 history, MetaTrader 5 live prices from the trader's broker, CSV import, and Databento CME futures ticks.
+
+## Who it is for
+
+Retail traders who want to practice on real past data before risking money, and traders preparing a prop firm evaluation. It does not promise profits.
+
+## Links
+
+- Website (French): https://floordeskone.com/
+- English: https://floordeskone.com/en/
+- Português (Brasil): https://floordeskone.com/pt/
+- Español: https://floordeskone.com/es/
+- Legal information, terms of sale and privacy: https://floordeskone.com/legal.html
+- Contact: contact@floordeskone.com
+
+## En français
+
+FloorDesk One est un logiciel Windows d'entraînement au trading : replay multi-graphique du marché passé, calendrier économique, trade manager, challenge prop firm avec gardien, journal automatique avec captures, coach, statistiques et Monte-Carlo. Ordres simulés, aucune promesse de gains. 17 € par mois ou 169 € par an, essai gratuit 7 jours.
