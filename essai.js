@@ -1,7 +1,8 @@
 /* L'essai gratuit : prenom, nom et email AVANT le formulaire Lemon Squeezy (qui ne demande que l'email pour un
    produit gratuit). Les boutons <a data-essai href="lien Lemon Squeezy"> ouvrent cette fenetre ; a l'envoi, on part
    sur Lemon Squeezy avec l'email et le nom deja remplis, et prenom / nom / accord dans les donnees de la commande
-   (checkout[custom]), visibles dans Lemon Squeezy > Orders. Sans JavaScript, le lien marche comme avant. */
+   (checkout[custom]), visibles dans Lemon Squeezy > Orders. Sans JavaScript, le lien marche comme avant.
+   Depuis le 2026-10-08 (Gumroad) : la fenetre ne s'ouvre QUE pour un lien Lemon Squeezy ; gardee si on y revient. */
 (function () {
   var T = {
     fr: { titre: "Ton essai gratuit de 7 jours", sous: "Remplis ces 3 cases, puis valide ton email sur la page suivante : le téléchargement démarre.",
@@ -70,6 +71,7 @@
   document.addEventListener("keydown", function (e) { if (e.key === "Escape") fermer(); });
 
   document.querySelectorAll("a[data-essai]").forEach(function (a) {
+    if (a.href.indexOf("lemonsqueezy.com") < 0) return;   // Gumroad (ou lien direct) : son formulaire demande lui-meme nom et email
     a.addEventListener("click", function (e) { e.preventDefault(); ouvrir(a.href); });
   });
 
